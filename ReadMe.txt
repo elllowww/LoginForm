@@ -1,15 +1,11 @@
-Dear Developer,
-Thank you for downloading the code from https://codehow2.com. Please read below points before using the code:
+email:
 
-1) If you are using XAMPP, please create a folder under xampp/htdocs. Keep all extracted files under that folder. For our example we created a remember_me folder under xampp/htdocs. If you are using WAMP create the folder under wamp/www.
+test@test.com
+david@student.auf.edu.ph
+user@gmail.com
 
-2) Create the table in your MySQL database and insert the data in it as given in users.sql. For our example we used demo database. You can create demo database or you can import it to any database you already have. Just make sure to update database name in dbconnect.php
+password:
 
-3) Email id and password to login are given below:
-Email id - test@test.com
-Password - 123
-
-Feel free to post your queries, questions or your feedback under Comments section at the end of the topic in the website https://codehow2.com
-
-Thank you
-Sundar Sau
+123
+mynumber
+BronnyJames
