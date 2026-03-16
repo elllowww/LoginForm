@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fffaf0; 
+    color: #4a2c00; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #e67e22; 
+}
+
+/* Error Message Styling */
+.err-msg {
+    text-align: center;
+    color: #c0392b;
+    background: #ffdada;
+    padding: 10px;
+    border-radius: 6px;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 0.9rem;
+}
+
+/* Main Form Container */
+.form-1 {
+    margin: 50px auto;
+    padding: 40px;
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(230, 126, 34, 0.15); 
+    border: 1px solid #f3e5ab; 
+}
+
+/* Input Group Styling */
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #edcc8b;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fffdfa;
+    transition: all 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #e67e22;
+    box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.2);
+}
+
+/* Checkbox and Label Alignment */
+p {
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.check {
+    accent-color: #e67e22; 
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* Button Styling */
+button, .btn, input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #e67e22; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #d35400; 
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Link Styling */
+a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustment */
+@media screen and (max-width: 500px) {
+    .form-1 {
+        width: 90%;
+        padding: 25px;
+    }
+}
